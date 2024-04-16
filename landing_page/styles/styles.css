@@ -6,11 +6,48 @@ body{
     margin: 0 auto;
     padding: 15px;
 }
+
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.bemvindo {
+    margin-top: 100px;
+    height: 200px;
+    line-height: 10px;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.child{
+    width: 20%;
+    height: 100px;
+    background-image: linear-gradient(180deg,rgb(26, 68, 54),rgb(34, 34, 34) );
+    color: rgb(57, 245, 184);
+    font-family: poppinsmedium;
+    font-size: 87%;
+    border-radius: 12px;
+    align-items: center;
+    text-align: center;
+}
+
+.child p {
+    width: 85%;
+    padding: 18px;
+    color: white;
+    font-size: 60%;
+    font-family: poppinsregular;
 }
 
 #title {
