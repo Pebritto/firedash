@@ -2,7 +2,6 @@
 
 O Firedash é uma plataforma que fornece dashboards de análise do mercado de ações, projetados para auxiliar investidores com insights acionáveis. Nossa missão é **democratizar o acesso ao mercado financeiro**, fornecendo ferramentas avançadas de análise de maneira acessível e intuitiva.
 
-Fazemos parte da VCPC Holding, uma organização impulsionada pela **inovação e excelência em investimentos**. Composta por sete sócios visionários, a VCPC Holding pretende atuar em diversas áreas sempre inovando através da tecnologia.
 
 No Firedash, combinamos expertise em análise financeira com **tecnologia de ponta** para oferecer aos nossos clientes uma visão abrangente do mercado de ações. Nossa equipe é apaixonada por fornecer **insights valiosos** e ajudar nossos usuários a tomar decisões informadas e estratégicas.
 
