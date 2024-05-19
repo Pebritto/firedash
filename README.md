@@ -1,5 +1,14 @@
 # Sobre Nós
 
+### Integrantes
+- Pedro de Oliveira Britto
+- Rafael Pansica Soga
+- Samuel Solano Neres
+- João Pedro de Jesus Narcizo
+- Pedro Henrique Lima de Brito
+- Erik Wesley Pereira do Nascimento
+- Miguel Lucena
+
 O Firedash é uma plataforma que fornece dashboards de análise do mercado de ações, projetados para auxiliar investidores com insights acionáveis. Nossa missão é **democratizar o acesso ao mercado financeiro**, fornecendo ferramentas avançadas de análise de maneira acessível e intuitiva.
 
 Fazemos parte da VCPC Holding, uma organização impulsionada pela **inovação e excelência em investimentos**. Composta por sete sócios visionários, a VCPC Holding pretende atuar em diversas áreas sempre inovando através da tecnologia.
@@ -22,9 +31,26 @@ Se você está buscando entender melhor o mercado de ações e otimizar seus inv
     
 -   Criação de Landing page responsiva com um resumo sobre o projeto.
 
+## Matriz de Risco
+![Alt text](arquivos_trabalho/matriz_risco.jpg)
+
+## Matriz RACI
+![Alt text](arquivos_trabalho/raci.png)
+
+## Scrum Team
+![Alt text](arquivos_trabalho/scrum.png)
+
+## Burndown Chart
+![Alt text](arquivos_trabalho/burndown_chart_sprt_1.png)
+O burndown chart foi feito no Jira, para acessar o projeto [Clique aqui](https://samuesolano.atlassian.net/jira/software/c/projects/VCPC/boards/1/backlog)
+
+## Protótipo Figma
+![Alt text](arquivos_trabalho/prototipo_landing_page.png)
+[Acesse o Protótipo](https://www.figma.com/design/oUEKnigQu0d8IoD0tN7dva/Firedash?node-id=0%3A1&t=5qiNm5c8tnQCta1C-1)
+
 # Landing page
 
-A Landing Page do Firedash é projetada para atrair e engajar potenciais usuários, fornecendo uma visão clara e convincente dos benefícios da nossa plataforma. Com um design atraente, conteúdo informativo e uma chamada para ação convincente, esperamos converter visitantes em clientes satisfeitos.
+A Landing Page do Firedash é projetada para atrair e engajar potenciais usuários, fornecendo uma visão clara e convincente dos benefícios da nossa plataforma. Com um design atraente, conteúdo informativo e uma chamada para ação convincente, esperamos converter visitantes em clientes satisfeitos. O programa roda essencialmente usando o bootstrap como ferramenta principal mas utilizamos diversas ferramentas como gulp, webpack e sass.
 
 ## Banner Principal
 
