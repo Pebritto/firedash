@@ -20,6 +20,12 @@ header {
     line-height: 10px;
 }
 
+.links {
+    flex-direction: row;
+    display: block;
+    align-items: center;
+}
+
 .container {
     height: 100%;
     display: flex;
@@ -55,6 +61,16 @@ header {
     line-height: 10px;
 }
 
+.title{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navega {
+    display: flex;
+    align-items: center;
+}
+
 li{
     display: inline-block;
     margin:20px;
@@ -62,6 +78,7 @@ li{
 
 a {
     color: white;
+    text-decoration: none;
 }
 
 a:hover{
@@ -136,6 +153,30 @@ form [type="submit"]{
 
 form [type="submit"]:hover{
     cursor: pointer;
+}
+
+footer{
+    padding-top: 150px;
+    margin: 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.linksfooter{
+    padding: 15px;
+    margin: 5px;
+
+}
+.fundinho{
+    flex-direction: column;
+    align-items: center;
+}
+
+footer p{
+    text-align: center;
+    display: block;
+    margin: 3px;
 }
 
 input{
