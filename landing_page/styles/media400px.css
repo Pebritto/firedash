@@ -1,4 +1,4 @@
-@media screen and (max-width: 800px){
+@media screen and (max-width: 600px){
 
     header{
         flex-direction: column;
@@ -9,7 +9,7 @@
     }
 
     h2{
-        margin-top: 120px;
+        margin-top: 400px;
         font-size: 20px;
         line-height: 25px;
     }
@@ -30,8 +30,10 @@
         text-align: center;
     }
 
-    .child_servicos {
-        height: 300px;
+    .child_sobre {
+        height: 10px;
+        margin-top: 30px;
+        margin-bottom: 250px;
+        flex-direction: row;
     }
-
 }

@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <link rel="stylesheet" href="./styles/fonts.css">
     <link rel="stylesheet" href="./styles/media.css">
+    <link rel="stylesheet" href="./styles/media400px.css">
     <link rel="stylesheet" href="./styles/media1030px.css">
+    <link rel="stylesheet" href="../landing_page/styles/bootstrap-5.0.2-dist/css/bootstrap.css">
     <title>Firedash</title>
 </head>
 
@@ -19,11 +21,11 @@
         </div>
 
         <ul>
-            <a href="#home"><li>Inicio</li></a>
-            <a href="../pages/servicos.html"><li>Serviços</li></a>
-            <a href="../pages/sobre.html"><li>Sobre</li></a>
-            <a href="#"><li>Contato</li></a>
-            <a href="#" id="Inscreva-sebuttom"><li>Ja tem uma conta?</li></a>
+            <a href="./index.html"><li>Inicio</li></a>
+            <a href="./servicos.html"><li>Serviços</li></a>
+            <a href="./sobre.html"><li>Sobre</li></a>
+            <a href="./contato.html"><li>Contato</li></a>
+            <a href="./login.html" id="Inscreva-sebuttom"><li>Ja tem uma conta?</li></a>
         </ul>
     </header>
     <div class="bemvindo">
@@ -33,55 +35,83 @@
 
     <div class="container">
         
-        <div class="child">Visualização Simplificada de Portfólio
+        <div class="child">Visualização Simplificada de Portfólio <br>
             <p>Descubra uma nova maneira de acompanhar e gerenciar seis investimentos com o FireDash. Com uma interface intuitiva e recursos poderesos, o fire Dash é a ferramenta prefeita para investidores de todos os niveis</p>
         </div>
-        <div class="child">Alerta Personalizado
+        <div class="child">Alerta Personalizado <br>
             <p>Fique oir dentro das mudanças importantes no mercado com alertas personalizados. Seja notificado sobre variações de preço, eventos corporativos e muito mais, para que vc possa agir rapidamente.</p>
         </div>
-        <div class="child">Acesso em Qualquer Lugar
+        <div class="child">Acesso em Qualquer Lugar <br>
             <p>Acesse o FireDash de qualquer dispositivo, a qualquer momento. Seja no seu computador,tablet ou smartphone, você terã acesso ás suas informações financeiras onde quer que esteja!.</p>
         </div>
-        <div class="child">Segurança</div>
+        <div class="child">Segurança <br>
+            <p>Segurança de ponta, contamos com uma bela infraestrutura e uma equipe de CyberSecurity que guardam todos seus dados financeiros e pessoais com atualizações frequentes de firewall e cyberprotection</p>
+        </div>
     
     </div>
-    <nav id="packs">
-       
-    </nav>
 
+    <div>
+        
+        <img id="grafic" src="./components/image/Design sem nome (3)-Photoroom.png-Photoroom.png" alt="grafic" style="width: 1400px; opacity: 5%; padding: auto; text-align: center;" >
+    </div>
 
-    <main>
-        <aside>
-            <h2><span>Inscreva-se agora</span> </span></h2>
-            <h2>no Firedash</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque id architecto maiores ducimus quisquam, necessitatibus, voluptates suscipit dolor delectus ullam, illum placeat repellat vero doloribus non aperiam voluptatum! Beatae, cupiditate.</p>
-            <form>
-                <input type="text" placeholder="Nome">
-                <input type="email" placeholder="E-mail">
-                <input type="submit" value="Enviar >">
-            </form>
-        </aside>
+    <div id="JanelaModal" class="modal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="header">
+                    <h3 style="text-align: center;">Inscreva-se Agora</h3>
+                </div>
 
-        <article>
-            <img id="grafic" src="./components/image/pngtree-flat-h5-financial-stock-market-scenario-png-image_4101488.png" alt="grafic">
-        </article>
+                <div class="modal-body">
+                    <form style="flex-direction: column; align-items: center; display: flex; 
+                    padding-left: 15%;">
+                        <input type="text" placeholder="Nome">
+                        <input type="email" placeholder="E-mail">
+                        <input type="tel" placeholder="Contato">
+                        <label for="cars">Pais de Origen</label>
+                        <select id="pais" name="Pais">
+                        <option value="Brasil">Brasil</option>
+                        <option value="USA">USA</option>
+                        <option value="UCRANIA">UCRANIA</option>
+                        <option value="XINGLING">XINGLING</option>
+                        </select>
+                        <input type="submit" value="Enviar >">
+                    </form>
+                </div>
+                
+                <div class="modal-footer">
+                    <a href="./sobre.html">Duvidas</a>
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+        
+    <main id="packs">
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#JanelaModal">
+            Inscrever-se
+        </button>
+        
     </main>
-    
+
     <footer>
         <div class="linksfooter">
 
-            <a href="#">Instagram</a>
-            <a href="#">Linkdin</a>
-            <a href="#">Whatsapp</a>
-            <a href="#">Facebook</a> 
+            <a href="#"><img src="../landing_page/components/image/instagram.png" alt="instagram" style="width: 35px;"></a>
+            <a href="#"><img src="../landing_page/components/image/linkedin.png" alt="linkedin"style="width: 35px;"></a>
+            <a href="#"><img src="../landing_page/components/image/facebook.png" alt="facebook"style="width: 35px;"></a>
         
         </div>
         <div class="fundinho">
-            <p>Endereço:78 FRANKLIN ST, NEW YORK, NY 10013-3481</p>
-            <p>SAC: 4020 4469 (capitais e regiões metropolitanas)
-            <p>0800 003 3481 (demais localidades).</p>
+            <p>Endereço:78 FRANKLIN ST, NEW YORK, NY 10013-3481</p> <br>
+            <p>SAC: 4020 4469 (capitais e regiões metropolitanas) <br>
+            <p>0800 003 3481 (demais localidades).</p> <br>
             <p>Desenvolvido por: Erik - João</p>
         </div>
     </footer>
+
+    <script src="../landing_page/styles/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
 </body>
 </html>

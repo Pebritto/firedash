@@ -1,5 +1,11 @@
-@media screen and (max-width: 1030px){
+@media screen and (max-width: 1200px){
 
+    
+    body {
+        display: grid;
+        align-items: center;
+    }
+    
     header{
         flex-direction: column;
     }
