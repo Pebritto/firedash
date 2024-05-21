@@ -1,13 +1,13 @@
 # Sobre Nós
 
 ### Integrantes
-- Pedro de Oliveira Britto RA: 96029
-- Rafael Pansica Soga RA: 98790
-- Samuel Solano Neres RA: 96037
-- João Pedro de Jesus Narcizo RA: 100006
-- Pedro Henrique Lima de Brito RA: 103465
-- Erik Wesley Pereira do Nascimento RA: 86489
-- Miguel Lucena Ady dos Santos RA: 100088
+- Erik Wesley Pereira do Nascimento - R.A.: **86489**
+- João Pedro de Jesus Narcizo - R.A.: **100006**
+- Miguel Lucena Ady dos Santos - R.A.: **100088**
+- Pedro de Oliveira Britto - R.A.: **96029**
+- Pedro Henrique Lima de Brito - R.A.: **103465**
+- Rafael Pansica Soga - R.A.: **98790**
+- Samuel Solano Neres - R.A.: **96037**
 
 O Firedash é uma plataforma que fornece dashboards de análise do mercado de ações, projetados para auxiliar investidores com insights acionáveis. Nossa missão é **democratizar o acesso ao mercado financeiro**, fornecendo ferramentas avançadas de análise de maneira acessível e intuitiva.
 
@@ -41,7 +41,7 @@ Se você está buscando entender melhor o mercado de ações e otimizar seus inv
 ![Alt text](arquivos_trabalho/scrum.png)
 
 ## Burndown Chart
-![Alt text](arquivos_trabalho/burndown_chart_sprt_1.png)
+![Alt text](arquivos_trabalho/burndown_chart_sprt_3.png)
 O burndown chart foi feito no Jira, para acessar o projeto [Clique aqui](https://samuesolano.atlassian.net/jira/software/c/projects/VCPC/boards/1/backlog)
 
 ## Protótipo Figma
