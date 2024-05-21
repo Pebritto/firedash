@@ -1,13 +1,13 @@
 # Sobre Nós
 
 ### Integrantes
-- Pedro de Oliveira Britto
-- Rafael Pansica Soga
-- Samuel Solano Neres
-- João Pedro de Jesus Narcizo
-- Pedro Henrique Lima de Brito
-- Erik Wesley Pereira do Nascimento
-- Miguel Lucena
+- Pedro de Oliveira Britto RA: 96029
+- Rafael Pansica Soga RA: 98790
+- Samuel Solano Neres RA: 96037
+- João Pedro de Jesus Narcizo RA: 100006
+- Pedro Henrique Lima de Brito RA: 103465
+- Erik Wesley Pereira do Nascimento RA: 86489
+- Miguel Lucena Ady dos Santos RA: 100088
 
 O Firedash é uma plataforma que fornece dashboards de análise do mercado de ações, projetados para auxiliar investidores com insights acionáveis. Nossa missão é **democratizar o acesso ao mercado financeiro**, fornecendo ferramentas avançadas de análise de maneira acessível e intuitiva.
 
@@ -70,9 +70,11 @@ Alertas Personalizados: Configure alertas automatizados para ficar por dentro de
 
 ## Depoimentos de Clientes
 
-**Cliente 1:** "O Firedash mudou completamente a maneira como gerencio meus investimentos. É fácil de usar e me dá insights valiosos para tomar decisões informadas."
-
-**Cliente 2:** "Graças ao Firedash, estou mais confiante em minha estratégia de investimento. Os recursos de análise são incrivelmente úteis."
+![Alt text](arquivos_trabalho/testemunho1.jpeg)
+![Alt text](arquivos_trabalho/testemunho2.jpeg)
+![Alt text](arquivos_trabalho/testemunho3.jpeg)
+![Alt text](arquivos_trabalho/testemunho4.jpeg)
+![Alt text](arquivos_trabalho/testemunho5.jpeg)
 
 # Dashboard
 
