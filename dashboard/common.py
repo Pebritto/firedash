@@ -1,4 +1,6 @@
 import streamlit as st
+import streamlit_authenticator as stauth
+import __pycache__.logincontroller as lc
 
 BACKGROUND_COLOR = 'white'
 COLOR = 'black'
@@ -33,3 +35,13 @@ def set_page_container_style(
             ''',
             unsafe_allow_html=True,
         )
+
+[st.mysql]
+dialect = "mysql"
+host = "localhost"
+port = 3306
+database = "firedash"
+username = "root"
+password = "Pedroca@220206"
+
+df = st.query("select * from mytable")
