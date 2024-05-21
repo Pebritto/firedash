@@ -1,40 +1,43 @@
 import streamlit as st
-from common import set_page_container_style
+import pandas as pd
+import yfinance as yf
+import investpy as inv
+from datetime import datetime, date, timedelta
 
-set_page_container_style(
-    max_width = 1100, max_width_100_percent = True,
-    padding_top = 0, padding_right = 10, padding_left = 5, padding_bottom = 10
-)
+df_html = pd.read_html('https://economia.uol.com.br/cotacoes/bolsas/')
+altas = pd.DataFrame(data=df_html[1])
+baixas = pd.DataFrame(data=df_html[2])
+negociadas =pd.DataFrame(data=df_html[3])
 
-def add_logo():
-    st.markdown(
-        """
-        <style>
-            [data-testid="stSidebarNav"] {
-                background-image: 'firedash-logo.png';
-                background-repeat: no-repeat;
-                padding-top: 120px;
-                background-position: 20px 20px;
-            }
-            [data-testid="stSidebarNav"]::before {
-                content: "My Company Name";
-                margin-left: 20px;
-                margin-top: 20px;
-                font-size: 30px;
-                position: relative;
-                top: 100px;
-            }
-        </style>
-        """,
-        unsafe_allow_html=True,
-    )
+def get_metric(metric, indice):
+    ticker = metric.iloc[indice, 0]
+    close = metric.iloc[indice, 2]
+    delta = metric.iloc[indice, 1]
+    st.metric(ticker, close, delta)
 
-with st.sidebar:
+st.title('Ações em Destaques',anchor=False)
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.subheader('Altas',anchor=False)
+    get_metric(altas, 0)
+    get_metric(altas, 1)
+    get_metric(altas, 2)
+    get_metric(altas, 3)
+    get_metric(altas, 4)
+
+with col2:
+    st.subheader('Baixas',anchor=False)
+    get_metric(baixas, 0)
+    get_metric(baixas, 1)
+    get_metric(baixas, 2)
+    get_metric(baixas, 3)
+    get_metric(baixas, 4)
     
-    # st.markdown("""<style> your css </style>""" , unsafe_allow_html=True)
-    st.image('firedash-logo.svg', width=200)
-    
-st.header('Firedash', anchor=False)
-
-st.button('Botão Primário', type='primary')
-st.button('Botão Secundário', type='secondary')
+with col3:
+    st.subheader('Mais Negociadas',anchor=False)
+    get_metric(negociadas, 0)
+    get_metric(negociadas, 1)
+    get_metric(negociadas, 2)
+    get_metric(negociadas, 3)
+    get_metric(negociadas, 4)

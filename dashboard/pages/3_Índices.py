@@ -32,11 +32,25 @@ with st.sidebar:
 
 st.title('Índices Mundiais')
 st.subheader('Valor Atual')
+
+col10, col20, col30, col40, col50 = st.columns(5)
+
+with col10:
+    get_metric(input_ac1)
+with col20:
+    get_metric(input_ac2)
+with col30:
+    get_metric(input_ac3)
+with col40:
+    get_metric(input_ac4)
+with col50:
+    get_metric(input_ac5)
+
+st.markdown('---')
+
 col1, col2, col3, col4, col5 = st.columns(5)
 
 with col1:
-    get_metric(input_ac1)
-    st.markdown('---')
     get_metric(indices.Name[1])
     st.markdown('---')
     get_metric(indices.Name[2])
@@ -44,8 +58,6 @@ with col1:
     get_metric(indices.Name[12])
 
 with col2:
-    get_metric(input_ac2)
-    st.markdown('---')
     get_metric(indices.Name[15])
     st.markdown('---')
     get_metric(indices.Name[16])
@@ -53,8 +65,6 @@ with col2:
     get_metric(indices.Name[24])
 
 with col3:
-    get_metric(input_ac3)
-    st.markdown('---')
     get_metric(indices.Name[20])
     st.markdown('---')
     get_metric(indices.Name[17])
@@ -62,8 +72,6 @@ with col3:
     get_metric(indices.Name[18])
 
 with col4:
-    get_metric(input_ac4)
-    st.markdown('---')
     get_metric(indices.Name[4])
     st.markdown('---')
     get_metric(indices.Name[8])
@@ -71,8 +79,6 @@ with col4:
     get_metric(indices.Name[10])
 
 with col5:
-    get_metric(input_ac5)
-    st.markdown('---')
     get_metric(indices.Name[19])
     st.markdown('---')
     get_metric(indices.Name[32])
