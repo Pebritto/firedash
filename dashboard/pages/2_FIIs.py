@@ -5,7 +5,7 @@ import pandas as pd
 import yfinance as yf
 from datetime import datetime, date, timedelta
 
-with open(os.getcwd()+'/pages/ifix.csv', newline='') as f:
+with open(os.getcwd()+'/dashboard/pages/ifix.csv', newline='') as f:
     reader = csv.reader(f)
     fundos = [i[0] + '.SA' for i in list(reader)]
 
