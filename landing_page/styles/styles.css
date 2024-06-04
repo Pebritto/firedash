@@ -1,9 +1,11 @@
 body{
-    background-color: rgb(34, 34, 34);
+    background-image: linear-gradient(90deg,#140A23,#122332 );
+    background-attachment: fixed;
     color: white;
     margin: 0 auto;
-    padding: 15px;
     text-align: center;
+    width: auto;
+    height: auto;
 }
 
 header {
@@ -16,6 +18,8 @@ header {
     margin-top: 80px;
     margin-bottom: 80px;
     line-height: 10px;
+    padding: 1.5em;
+    ;
     flex-direction: row;
 
 }
